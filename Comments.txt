@@ -1,0 +1,4 @@
+Change price range
+Check for mm/dd/yyyy vs dd/mm/yyyy
+Check instrument id to make sure in reference csv fille
+
