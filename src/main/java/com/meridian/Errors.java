@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.HashMap;
 
-//This is the Error class. Creates a HashMap of Errors that will be imported and accessed in the Validation file
+//This is the Error class. Creates a HashMap of Errors accessed in the Validation file
 
 public class Errors {
         
@@ -20,6 +20,9 @@ public class Errors {
         "missing_buyer",
         "missing_seller",
         "missing_quantity",
+        "missing_instrument_type",
+        "missing_trade_date",
+        "missing_price",
         "invalid_quantity",
         "invalid_price",
         "negative_price",
