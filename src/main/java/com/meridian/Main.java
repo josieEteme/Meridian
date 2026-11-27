@@ -4,8 +4,8 @@ import picocli.CommandLine;
 import picocli.CommandLine.Command;
 import picocli.CommandLine.Option;
 
-//import java.util.logging.Level;
-//import java.util.logging.Logger;
+import org.tinylog.Logger;
+
 import java.nio.file.Path;
 import java.util.*;
 import java.io.*;  
