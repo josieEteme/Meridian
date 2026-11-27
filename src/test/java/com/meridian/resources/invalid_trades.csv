@@ -1,0 +1,24 @@
+trade_id,instrument_id,instrument_type,trade_date,buyer,seller,quantity,price,trade_status
+TRDA1B2C3D4E5,MRCX,Equity,2026-01-05,Meridian Capital Group LLC,Altus Holdings Inc,100,152.30,Settled
+TRX-A1B2C3D4E5,IGTC,ETF,2026-01-06,Irongate Investment Advisors,Solaris Fund Management,250,98.45,Settled
+TRD-A1B2C3,NXCM,Bond,2026-01-07,Nexus Capital Markets LLC,Pinnacle Trade Partners Inc,500,101.20,Pending
+TRD-G1H2I3J4K5,VNTS,Equity,2026-01-08,Vantage Asset Management,Crestwood Financial Group,300,47.85,Settled
+trd-A1B2C3D4E5,ORNM,ETF,2026-01-09,Orion Investment Management,Sterling Market Partners LLC,150,63.10,Pending
+TRD-D000000001,BLHV,Bond,2026/01/12,Bluehaven Trading LLC,Thornfield Brokers Inc,1000,99.75,Settled
+TRD-D000000002,EVST,Equity,Jan 13 2026,Everest Capital Group Inc,Claridge Holdings Corp,200,212.40,Pending
+TRD-D000000003,GLDT,ETF,20260114,Goldtree Asset Management,Silverton Fund Advisors,400,120.00,Settled
+TRD-D000000004,FNDX,Bond,2026-1-15,Fondex Capital LLC,Dervex Capital Markets,750,100.50,Pending
+TRD-E000000001,ATLS,Equity,2026-01-16,Atlas Trading Group Inc,Colborne Capital LLC,abc,150.00,Settled
+TRD-E000000002,SLRS,ETF,2026-01-19,Solaris Fund Management,Fairview Financial Inc,ten,88.10,Pending
+TRD-E000000003,PNTP,Bond,2026-01-20,Pinnacle Trade Partners Inc,Westgate Securities Corp,1OO,97.30,Settled
+TRD-E000000004,MRCX,Equity,2026-01-26,Meridian Capital Group LLC,Altus Holdings Inc,"1,000",150.00,Settled
+TRD-E000000005,VNTS,Equity,2026-01-28,Vantage Asset Management,Crestwood Financial Group,12.5.3,150.00,Settled
+TRD-E000000006,ORNM,ETF,2026-01-29,Orion Investment Management,Sterling Market Partners LLC,100 units,88.10,Pending
+TRD-F000000001,CPXT,Equity,2026-01-21,Capstone Financial Group,Infrax Global Inc,300,free,Pending
+TRD-F000000002,STRM,ETF,2026-01-22,Sterling Market Partners LLC,Tradex Investment Management,500,abc,Settled
+TRD-F000000003,DRVX,Bond,2026-01-23,Dervex Capital Markets,Barcrest Capital LLC,600,TBD,Pending
+TRD-F000000004,IGTC,ETF,2026-01-27,Irongate Investment Advisors,Solaris Fund Management,500,$99.50,Pending
+TRD-F000000005,BLHV,Bond,2026-01-30,Bluehaven Trading LLC,Thornfield Brokers Inc,500,1e3,Settled
+TRD-F000000006,EVST,Equity,2026-02-02,Everest Capital Group Inc,Claridge Holdings Corp,300,.50,Pending
+TRD-123,MRCX,Equity,01-05-26,Meridian Capital Group LLC,Altus Holdings Inc,abc,120.00,Settled
+TRD-A000000007,CLRG,Equity,Feb 5 2026,Claridge Holdings Corp,Harlow Group Holdings,200,xyz,Pending

@@ -1,0 +1,9 @@
+trade_id,instrument_id,instrument_type,trade_date,buyer,seller,quantity,price,trade_status
+TRD-A1B2C3D4E5,MRCX,Equity,2026-01-05,Meridian Capital Group LLC,Meridian Capital Group LLC,100,152.30,Settled
+TRD-B2C3D4E5F6,IGTC,ETF,2026-01-06,Irongate Investment Advisors,Irongate Investment Advisors,250,98.45,Settled
+TRD-C3D4E5F6A7,NXCM,Bond,2026-01-07,Nexus Capital Markets LLC,Nexus Capital Markets LLC,500,101.20,Pending
+TRD-D4E5F6A7B8,EVST,Equity,2026-01-08,Everest Capital Group Inc,Everest Capital Group Inc,300,212.40,Settled
+TRD-E5F6A7B8C9,GLDT,ETF,2026-01-09,Goldtree Asset Management,Goldtree Asset Management,400,120.00,Pending
+TRD-F6A7B8C9D0,VNTS,Equity,2026-01-12,Vantage Asset Management,Crestwood Financial Group,300,47.85,Settled
+TRD-0A1B2C3D4E,BLHV,Bond,2026-01-13,Bluehaven Trading LLC,Thornfield Brokers Inc,1000,99.75,Settled
+TRD-1B2C3D4E5F,SLRS,ETF,2026-01-14,Solaris Fund Management,Fairview Financial Inc,200,88.10,Pending
