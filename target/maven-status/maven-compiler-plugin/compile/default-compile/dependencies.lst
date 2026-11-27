@@ -14,4 +14,8 @@ classpath:C:\Users\JOSIE ETEME\.m2\repository\com\univocity\univocity-parsers\2.
 classpath:C:\Users\JOSIE ETEME\.m2\repository\com\ibm\icu\icu4j\65.1\icu4j-65.1.jar	12901874:1570086978000
 classpath:C:\Users\JOSIE ETEME\.m2\repository\io\github\classgraph\classgraph\4.8.60\classgraph-4.8.60.jar	476777:1578446555000
 classpath:C:\Users\JOSIE ETEME\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar	41472:1576530216000
+classpath:C:\Users\JOSIE ETEME\.m2\repository\org\tinylog\tinylog-api\2.7.0\tinylog-api-2.7.0.jar	64752:1706732803000
+classpath:C:\Users\JOSIE ETEME\.m2\repository\org\openjfx\javafx-base\21.0.2\javafx-base-21.0.2.jar	302:1705439743000
+classpath:C:\Users\JOSIE ETEME\.m2\repository\org\openjfx\javafx-base\21.0.2\javafx-base-21.0.2-win.jar	753984:1705439746000
+classpath:C:\Users\JOSIE ETEME\.m2\repository\org\tinylog\tinylog-impl\2.7.0\tinylog-impl-2.7.0.jar	135284:1706732804000
 classpath:C:\Users\JOSIE ETEME\.m2\repository\info\picocli\picocli\4.7.6\picocli-4.7.6.jar	415723:1715120277000

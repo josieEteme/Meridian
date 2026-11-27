@@ -1,3 +1,5 @@
 com\meridian\Errors.class
 com\meridian\Validation.class
+com\meridian\FileTableChecks.class
 com\meridian\Main.class
+com\meridian\WriteCleanOutput.class
