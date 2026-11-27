@@ -7,36 +7,49 @@ import picocli.CommandLine.Option;
 //import java.util.logging.Level;
 //import java.util.logging.Logger;
 import java.nio.file.Path;
-import java.util.Map;
+import java.util.*;
+import java.io.*;  
 
+//Main class: Meridian/--validation command creation
 @Command(name = "meridian", description = "Clean and validate trade data.")
 public class Main implements Runnable{
 
     @Option(names = "--validate", description = "Validate the data and write clean output files.")
     private boolean validate;
 
-
     @Override 
     public void run(){
 
         if(validate){
 
+            Logger.info("Application Started");
+            
             Validation v = new Validation();
-            v.validate(Path.of("meridian_trades_small.csv"));
+            try {
+                v.validate(Path.of("meridian_trades_small.csv"));
+            } catch (IOException e) {
+                Logger.error(e, "Failed to validate the CSV file");
+                return;
+            }
 
             for (Map.Entry<String, Integer> entry : v.errors.errorCount.entrySet()) {
-                System.out.println(entry.getKey() + ": " + entry.getValue());
+                    
+                if(entry.getValue() > 0){
+                    StringBuilder errorMessage = new StringBuilder(); 
+                    errorMessage.append(entry.getKey().toString());
+                    errorMessage.append(": "); 
+                    errorMessage.append(entry.getValue().toString());
+
+                    Logger.error(errorMessage.toString());
+                }
             }
 
         }
     }
 
-    //logging object instantiation
-    //private static final Logger logger = Logger.getLogger(Main.class.getName());
-
     public static void main(String[]args){
             
         int exitCode = new CommandLine(new Main()).execute(args);
-        System.out.print("exitcode: " + exitCode);
+        //System.out.print("exitcode: " + exitCode);
     }
 }
